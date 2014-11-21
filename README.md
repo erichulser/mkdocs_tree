@@ -11,7 +11,7 @@ Create a folder structure of `*.md` files somewhere in your documents root, for 
      |- [-] utils
      |   |- index.md
 
-To serve this hierarchy, you will need to include the `mkdocs.contrib.tree` extension in your `mkdocs.yml`
+To serve this hierarchy, you will need to include the `mkdocs_tree` extension in your `mkdocs.yml`
 configuration file:
 
     mkdocs_extensions:
