@@ -1,7 +1,16 @@
 The `mkdocs_tree` extension will allow you to load a hierarchy of markdown files
 into your [mkdocs](https://github.com/tomchristie/mkdocs) project.
 
-### Usage
+Installation
+-------------
+
+You can install the `mkdocs_tree` package using `pip` or `easy_install`
+
+    $ pip install mkdocs_tree
+    $ easy_install mkdocs_tree
+
+Usage
+-------------
 
 Create a folder structure of `*.md` files somewhere in your documents root, for instance
 
