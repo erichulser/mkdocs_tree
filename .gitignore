@@ -1,1 +1,4 @@
 *.pyc
+/mkdocs_tree.egg-info
+/build
+/dist
