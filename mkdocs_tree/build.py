@@ -1,5 +1,5 @@
 """
-Defines helper building methods for the `mkdocs.contrib.tree` extension.
+Defines helper building methods for the `mkdocs_tree` extension.
 """
 
 import os
@@ -54,6 +54,5 @@ def create_tree(event):
                 pages.append(page)
 
         event.pages = pages
-        return True
-    else:
-        return False
+        event.consumed = True
+

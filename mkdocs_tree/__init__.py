@@ -3,7 +3,7 @@ from mkdocs import events
 from . import build
 from . import config as tree_config
 
-def includeme(config):
+def init_extension(config):
     """
     Intitializes the `tree` extension for mkdocs.
 
